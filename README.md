@@ -18,4 +18,5 @@
 - How to create a new component and use it in your application.
 - Add styles to your component.
 - Configuring assets in your Angular project.
+- Displaying dynamic data in your component.
 - Follow the steps mentioned at [Angular Basics](./docs/2.%20Angular%20Basics.md) to get started.
