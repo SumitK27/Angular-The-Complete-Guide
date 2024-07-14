@@ -11,3 +11,11 @@
 - This section will guide you on how to get started with the project on your local machine.
 - How a component is being rendered in the browser.
 - Follow the steps mentioned at [Getting Started](./docs/1.%20Getting%20Started.md) to get started.
+
+## ***Angular Basics***
+
+- This section will guide you on the basics of Angular.
+- How to create a new component and use it in your application.
+- Add styles to your component.
+- Configuring assets in your Angular project.
+- Follow the steps mentioned at [Angular Basics](./docs/2.%20Angular%20Basics.md) to get started.
