@@ -25,4 +25,5 @@
 
 - This section will guide you on how to manage the state in your Angular application.
 - Basics - Legacy state management vs signal based state management.
+- How to pass data from parent to child component using `@Input` decorator and `input` signal.
 - Follow the steps mentioned at [State Management and Change Detection](./docs/3.%20State%20Management%20and%20Change%20Detection.md) to get started.
