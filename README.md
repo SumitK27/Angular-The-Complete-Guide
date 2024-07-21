@@ -20,3 +20,9 @@
 - Configuring assets in your Angular project.
 - Displaying dynamic data in your component.
 - Follow the steps mentioned at [Angular Basics](./docs/2.%20Angular%20Basics.md) to get started.
+
+## ***State Management and Change Detection***
+
+- This section will guide you on how to manage the state in your Angular application.
+- Basics - Legacy state management vs signal based state management.
+- Follow the steps mentioned at [State Management and Change Detection](./docs/3.%20State%20Management%20and%20Change%20Detection.md) to get started.
