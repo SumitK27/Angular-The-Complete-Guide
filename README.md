@@ -11,6 +11,7 @@ Markdown
 - [Core Angular Concepts](#core-angular-concepts)
 - [Managing State and Updates](#managing-state-and-updates)
 - [Dynamic Views with Loops and Conditions](#dynamic-views-with-loops-and-conditions)
+- [Styling and User Interaction](#styling-and-user-interaction)
 
 
 ## Angular Fundamentals
@@ -43,3 +44,11 @@ Markdown
 - **Advanced Conditionals:** Explore `*ngSwitch` for handling situations with multiple conditional rendering options.
 - **Modern Syntax:** Learn the modern syntax for loops and conditionals with `@for`, `@if`, and `@switch`.
 - **Detailed Guide:** Follow the in-depth steps at [**Dynamic Views with Loops and Conditions**](./docs/4.%20Dynamic%20Views%20with%20Loops%20and%20Conditions.md) to gain mastery over dynamic UI rendering.
+
+## Styling and User Interaction
+
+- **Dynamic Styling:** Learn how to apply CSS rules and classes dynamically based on application state or user interaction.
+- **Two-Way Data Binding:** Master two-way data binding to seamlessly update data in your component as users interact with the application.
+- **Directives in Angular:** Explore the concept of directives in Angular and how they help you create dynamic and interactive components.
+- **ngSubmit Directive:** Discover how to listen to form submission events and handle them effectively in your Angular application.
+- **Detailed Guide:** Follow the comprehensive steps at [**Styling and User Interaction**](./docs/5.%20Styling%20and%20User%20Interaction.md) to enhance your application's visual appeal and user experience.

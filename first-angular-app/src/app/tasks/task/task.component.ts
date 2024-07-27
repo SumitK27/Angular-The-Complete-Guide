@@ -1,12 +1,4 @@
-import { Component, input } from '@angular/core';
-
-export interface Task {
-  id: string;
-  userId: string;
-  title: string;
-  summary: string;
-  dueDate: string;
-}
+import { Component, input, output } from '@angular/core';
 
 @Component({
   selector: 'app-task',
@@ -16,5 +8,16 @@ export interface Task {
   styleUrl: './task.component.css',
 })
 export class TaskComponent {
-  task = input.required<Task>();
+  task = input.required<{
+    id: string;
+    userId: string;
+    title: string;
+    summary: string;
+    dueDate: string;
+  }>();
+  complete = output<string>();
+
+  onCompleteTask() {
+    this.complete.emit(this.task().id);
+  }
 }
