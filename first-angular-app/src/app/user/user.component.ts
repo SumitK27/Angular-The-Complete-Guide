@@ -1,12 +1,10 @@
-import {
-  Component,
-  computed,
-  EventEmitter,
-  input,
-  Input,
-  output,
-  Output,
-} from '@angular/core';
+import { Component, computed, input, output } from '@angular/core';
+
+type User = {
+  id: string;
+  name: string;
+  avatar: string;
+};
 
 @Component({
   selector: 'app-user',
@@ -16,27 +14,13 @@ import {
   styleUrl: './user.component.css',
 })
 export class UserComponent {
-  // Property-based
-  // @Input({ required: true }) id!: string;
-  // @Input({ required: true }) avatar!: string;
-  // @Input({ required: true }) name!: string;
-  // @Output() select = new EventEmitter<string>();
-  // get imagePath() {
-  //   return `assets/users/${this.avatar}`;
-  // }
-
-  // Signal-based
-  id = input.required<string>();
-  avatar = input.required<string>();
-  name = input.required<string>();
+  user = input.required<User>();
   select = output<string>();
-  imagePath = computed(() => `assets/users/${this.avatar()}`);
+  imagePath = computed(() => `assets/users/${this.user().avatar}`);
+
+  name = computed(() => this.user().name);
 
   onSelectUser() {
-    // Property-based
-    // this.select.emit(this.id);
-
-    // Signal-based
-    this.select.emit(this.id());
+    this.select.emit(this.user().id);
   }
 }

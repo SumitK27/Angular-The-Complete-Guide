@@ -29,3 +29,12 @@
 - How to pass data from child to parent component using `@Output` decorator and `output` function.
 - Using `EventEmitter` Listening to events in Angular.
 - Follow the steps mentioned at [State Management and Change Detection](./docs/3.%20State%20Management%20and%20Change%20Detection.md) to get started.
+
+## ***Loops and Conditional Rendering***
+
+- This section will guide you on how to use loops and conditionally render elements in Angular.
+- How to use `*ngFor` directive to loop through an array of elements.
+- How to use `*ngIf` directive to conditionally render elements.
+- How to use `*ngSwitch` directive to conditionally render elements based on a condition.
+- Using modern syntax for loops and conditional rendering `@for`, `@if` and `@switch`.
+- Follow the steps mentioned at [Loops and Conditional Rendering](./docs/4.%20Loops%20and%20Conditional%20Rendering.md) to get started.
