@@ -1,40 +1,45 @@
+Markdown
 # **Angular - The Complete Guide** <!-- omit in toc -->
 
-- This repository contains the code for the course [Angular - The Complete Guide](https://www.udemy.com/course/the-complete-guide-to-angular-2/) on Udemy.
-- No intention to violate the course's terms and conditions.
-- The code is for reference purposes only.
+**Note:**
+- This repository contains the code samples and exercises for the course "[Angular - The Complete Guide](https://www.udemy.com/course/the-complete-guide-to-angular-2/)" on Udemy.
+- It's not intended to violate the course's terms and conditions.
+- The code is provided solely for reference purposes and to aid in understanding the course material.
 
-- [***Getting Started***](#getting-started)
+## **Table of Contents** <!-- omit in toc -->
+- [Angular Fundamentals](#angular-fundamentals)
+- [Core Angular Concepts](#core-angular-concepts)
+- [Managing State and Updates](#managing-state-and-updates)
+- [Dynamic Views with Loops and Conditions](#dynamic-views-with-loops-and-conditions)
 
-## ***Getting Started***
 
-- This section will guide you on how to get started with the project on your local machine.
-- How a component is being rendered in the browser.
-- Follow the steps mentioned at [Getting Started](./docs/1.%20Getting%20Started.md) to get started.
+## Angular Fundamentals
 
-## ***Angular Basics***
+- **Get Started Locally:** Learn how to set up an Angular development environment on your machine to start building applications.
+- **Component Rendering:** Understand the core concept of components and how Angular renders them in the browser.
+- **Detailed Guide:** Follow the in-depth steps mentioned at [**Angular Fundamentals**](./docs/1.%20Angular%20Fundamentals.md) to build a solid foundation.
 
-- This section will guide you on the basics of Angular.
-- How to create a new component and use it in your application.
-- Add styles to your component.
-- Configuring assets in your Angular project.
-- Displaying dynamic data in your component.
-- Follow the steps mentioned at [Angular Basics](./docs/2.%20Angular%20Basics.md) to get started.
+## Core Angular Concepts
 
-## ***State Management and Change Detection***
+- **Building Blocks:** Master the core building blocks of Angular applications, including components.
+- **Component Creation:** Learn how to create new components and use them within your application.
+- **Styling Components:** Explore ways to add styles to your components for a visually appealing user interface.
+- **Asset Management:** Configure how your application handles assets like images or fonts.
+- **Dynamic Data:** Discover techniques for displaying data that can change dynamically in your components.
+- **Detailed Guide:** Follow the comprehensive steps at [**Core Angular Concepts**](./docs/2.%20Core%20Angular%20Concepts.md) to gain practical knowledge.
 
-- This section will guide you on how to manage the state in your Angular application.
-- Basics - Legacy state management vs signal based state management.
-- How to pass data from parent to child component using `@Input` decorator and `input` signal.
-- How to pass data from child to parent component using `@Output` decorator and `output` function.
-- Using `EventEmitter` Listening to events in Angular.
-- Follow the steps mentioned at [State Management and Change Detection](./docs/3.%20State%20Management%20and%20Change%20Detection.md) to get started.
+## Managing State and Updates
 
-## ***Loops and Conditional Rendering***
+- **State Management Strategies:** Explore different approaches to managing application state, comparing legacy methods with signal-based techniques.
+- **Parent-to-Child Communication:** Learn how to pass data from a parent component to its child using `@Input` and `input` signals.
+- **Child-to-Parent Communication:** Discover how to send data from a child component back to its parent using `@Output` and `output` functions.
+- **Event Handling:** Understand how `EventEmitter` helps listen to and react to events within your Angular application.
+- **Detailed Guide:** Follow the practical steps at [**Managing State and Updates**](./docs/3.%20Managing%20State%20and%20Updates.md) to master state control.
 
-- This section will guide you on how to use loops and conditionally render elements in Angular.
-- How to use `*ngFor` directive to loop through an array of elements.
-- How to use `*ngIf` directive to conditionally render elements.
-- How to use `*ngSwitch` directive to conditionally render elements based on a condition.
-- Using modern syntax for loops and conditional rendering `@for`, `@if` and `@switch`.
-- Follow the steps mentioned at [Loops and Conditional Rendering](./docs/4.%20Loops%20and%20Conditional%20Rendering.md) to get started.
+## Dynamic Views with Loops and Conditions
+
+- **Iterating with Loops:** Learn how to use `*ngFor` to loop through an array of elements and display them efficiently.
+- **Conditional Rendering:** Discover how to conditionally display elements based on specific conditions using `*ngIf`.
+- **Advanced Conditionals:** Explore `*ngSwitch` for handling situations with multiple conditional rendering options.
+- **Modern Syntax:** Learn the modern syntax for loops and conditionals with `@for`, `@if`, and `@switch`.
+- **Detailed Guide:** Follow the in-depth steps at [**Dynamic Views with Loops and Conditions**](./docs/4.%20Dynamic%20Views%20with%20Loops%20and%20Conditions.md) to gain mastery over dynamic UI rendering.
