@@ -13,6 +13,7 @@ Markdown
 - [Dynamic Views with Loops and Conditions](#dynamic-views-with-loops-and-conditions)
 - [Styling and User Interaction](#styling-and-user-interaction)
 - [Beyond the Basics: Deep Dive into Angular Data Management](#beyond-the-basics-deep-dive-into-angular-data-management)
+- [Structuring Your Angular Application With Modules](#structuring-your-angular-application-with-modules)
 
 
 ## Angular Fundamentals
@@ -62,3 +63,13 @@ Markdown
 - **Services:** Discover the role of services in Angular and how they help you manage data and business logic effectively. Different approaches to using services in Angular.
 - **Local Storage:** Explore how to use local storage in Angular to store data on the client side, enabling persistent data across sessions.
 - **Detailed Guide:** Follow the advanced steps at [**Deep Dive into Angular Data Management**](./docs/6.%20Deep%20Dive%20into%20Angular%20Data%20Management.md) to master data handling techniques in Angular.
+
+## Structuring Your Angular Application With Modules
+
+- **Module Basics:** Understand the concept of modules in Angular and how they help you organize your application's code effectively.
+- **Built-in Modules:** Explore the built-in modules provided by Angular and how to use them in your application.
+- **Feature Modules:** Learn how to create feature modules in Angular to encapsulate related functionality and improve code maintainability.
+- **Shared Modules:** Discover how shared modules help you share common functionality across multiple modules in your Angular application.
+- **Migrating to Modules:** Explore the steps to migrate an existing Angular application to use modules effectively.
+- **Module Components vs Standalone Components:** Understand the differences between module and standalone components in Angular, their pros and cons, and when to use each.
+- **Detailed Guide:** Follow the practical steps at [**Structuring Your Angular Application With Modules**](./docs/7.%20Structuring%20Your%20Angular%20Application%20With%20Modules.md) to organize your Angular application effectively.
