@@ -12,6 +12,7 @@ Markdown
 - [Managing State and Updates](#managing-state-and-updates)
 - [Dynamic Views with Loops and Conditions](#dynamic-views-with-loops-and-conditions)
 - [Styling and User Interaction](#styling-and-user-interaction)
+- [Beyond the Basics: Deep Dive into Angular Data Management](#beyond-the-basics-deep-dive-into-angular-data-management)
 
 
 ## Angular Fundamentals
@@ -52,3 +53,12 @@ Markdown
 - **Directives in Angular:** Explore the concept of directives in Angular and how they help you create dynamic and interactive components.
 - **ngSubmit Directive:** Discover how to listen to form submission events and handle them effectively in your Angular application.
 - **Detailed Guide:** Follow the comprehensive steps at [**Styling and User Interaction**](./docs/5.%20Styling%20and%20User%20Interaction.md) to enhance your application's visual appeal and user experience.
+
+## Beyond the Basics: Deep Dive into Angular Data Management
+
+- **Models in Angular:** Understand the different ways to define models in Angular, including types, interfaces, and classes.
+- **NgContent:** Explore how `ng-content` helps you pass content to a component dynamically, enabling flexible and reusable components.
+- **Pipes:** Learn how to use pipes in Angular to transform data before displaying it in the view, enhancing user experience.
+- **Services:** Discover the role of services in Angular and how they help you manage data and business logic effectively. Different approaches to using services in Angular.
+- **Local Storage:** Explore how to use local storage in Angular to store data on the client side, enabling persistent data across sessions.
+- **Detailed Guide:** Follow the advanced steps at [**Deep Dive into Angular Data Management**](./docs/6.%20Deep%20Dive%20into%20Angular%20Data%20Management.md) to master data handling techniques in Angular.

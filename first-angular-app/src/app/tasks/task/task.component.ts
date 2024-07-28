@@ -1,23 +1,22 @@
 import { Component, input, output } from '@angular/core';
+import { Task } from './task.model';
+import { CardComponent } from '../../shared/card/card.component';
+import { DatePipe } from '@angular/common';
+import { TasksService } from '../tasks.service';
 
 @Component({
   selector: 'app-task',
   standalone: true,
-  imports: [],
+  imports: [CardComponent, DatePipe],
   templateUrl: './task.component.html',
   styleUrl: './task.component.css',
 })
 export class TaskComponent {
-  task = input.required<{
-    id: string;
-    userId: string;
-    title: string;
-    summary: string;
-    dueDate: string;
-  }>();
-  complete = output<string>();
+  task = input.required<Task>();
+
+  constructor(private tasksService: TasksService) {}
 
   onCompleteTask() {
-    this.complete.emit(this.task().id);
+    this.tasksService.removeTask(this.task().id);
   }
 }
